@@ -1,0 +1,380 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+:root{
+    --text-color: #4543E8;
+}
+.info {
+	padding: 0 calc(50% - 640px);
+	display: flex;
+
+	background-color: #010032;
+	flex-direction: column;
+	background-image: url(../img/man.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.info__text {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.info__text p:first-of-type {
+	margin: 95px 0 32px;
+	font-size: 72px;
+	line-height: 76px;
+}
+
+.info__text p {
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.info__text button {
+	width: 30%;
+    border-radius: 50px;
+    padding: 3%;
+	display: flex;
+	align-items: center;
+    gap: 52px;
+}
+
+.info__awards {
+	margin: 100px 0 50px;
+	display: flex;
+	gap: 24px;
+	align-items: center;
+}
+
+.text__awards {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+    color: white;
+}
+
+.text__awards p:first-of-type {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.text__awards p:last-of-type {
+	opacity: 60%;
+	font-size: 15px;
+	line-height: 22px;
+}
+body{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+.btn{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+.container-header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 calc(50% - 640px);
+    margin: 0 auto;
+}
+.nav-ul-h{
+    display: flex;
+    gap: 34px;
+}
+.nav-item-h{
+    margin: 5px;
+    font-size:14px;
+  
+}
+.art-b-1{
+    width: 46%;
+    padding: 8%;
+}
+.nav-link-h{
+    color: white;
+}
+header{
+    background-color: #010032;
+}
+.nav__cart {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+    color: #fff;
+}
+
+.nav__burger {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	cursor: pointer;
+}
+
+.nav__burger span {
+	background-color: #f1f2f6;
+	width: 25px;
+	height: 2px;
+	border-radius: 20px;
+}
+
+main{
+    width: 100%;
+    height: 100% ;
+    background-color: white;
+
+}
+.container-b-2{
+  
+ display: flex;
+ padding-top: 10% !important;
+ padding: 0 calc(50% - 640px);
+ gap: 47px;
+}
+.b-2-about{
+    flex-basis: 40%;
+ 
+ color: var(--text-color);
+}
+.b-2-about>span{
+  
+    top: 134%;
+}
+.about-art{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000 !important;
+}
+.img-2{
+    padding-top: 18%;
+}
+.trust
+{
+    flex-basis: 60%;
+}
+.trust>h1{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+
+}
+.trust-c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card>h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 66px;
+color: var(--text-color);
+}
+.card>p{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+
+/* identical to box height, or 147% */
+
+
+color: #000000;
+}
+.trust-comp{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    flex-wrap: nowrap;
+    padding=top: 27%;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9px;
+    padding-top: 9%;
+}
+.profile>img{
+    width: 50px;
+    height: 50px;
+}
+.profile>span{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+.container-b-3{
+    display: flex;
+    padding-top: 10% !important;
+    padding: 0 calc(50% - 640px);
+   
+    height: 100%;
+    flex-direction: column;
+   }
+.ww-logo{
+ 
+ color: var(--text-color);
+}
+.b-3-title{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    width: 59%;
+    line-height: 77px;
+    color: #000000;
+}
+/*First*/
+.first-colum{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.card-1{
+    width: 42%;
+    position: inherit;
+}
+
+.card-1>.c-p-1{
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 124% */
+
+
+color: #000000;
+}
+.card-1>.c-p-2{
+    width: 96%;
+}
+.card-2>.c-p-1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 124% */
+
+
+color: #000000;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-2>.c-p-2{
+    width: 96%;
+}
+/*Second*/
+.second-colum{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.card-3{
+    width: 61%;
+    position: inherit;
+}
+.c-p-3{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 124% */
+
+
+color: #000000;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-p-3{
+    width: 96%;
+}
+/*third*/
+.third-colum{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.card-4{
+    width: 42%;
+    position: inherit;
+}
+.card-5{
+    width: 42%;
+    position: inherit;
+}
+.card-4>.c-p-1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 124% */
+
+
+color: #000000;
+    width: 116%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-4>.c-p-2{
+    width: 96%;
+}
+.card-5>.c-p-1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 124% */
+
+
+color: #000000;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-5>.c-p-2{
+    width: 96%;
+}
